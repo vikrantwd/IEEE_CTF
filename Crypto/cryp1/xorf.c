@@ -7,10 +7,14 @@ main()
 	scanf("%s",s1);
 	printf("String 2:");
 	scanf("%s",s2);
-	int i=0;
+	if(strlen(s1)==strlen(s2))
+	{
+	int i;
 	for(i=0;i<strlen(s1);++i)
 	{
 		s3[i]=s1[i]^s2[i];
 	}
 	printf("%s",s3);
+	}
+	else printf("Strings not equal!!!\n");
 }
