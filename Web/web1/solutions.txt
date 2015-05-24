@@ -1,0 +1,4 @@
+#solutions for the first three exercises
+Exercise 1 - View page source and find password in the comments
+Exercise 2 - As password file is missing directly click submit
+Exercise 3 - Go to the password.php page and copy password
